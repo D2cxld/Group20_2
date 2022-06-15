@@ -1,5 +1,5 @@
 header {
-		background-color: green;
+		background-color: #59d149;
 		text-align: center;
 }
 
@@ -25,7 +25,7 @@ footer ul {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		background-color: green;
+		background-color:#59d149 ;
 }
 
 footer ul li {
@@ -47,9 +47,18 @@ nav > ul > li > a {
 }
 
 nav a:hover {
-		background-color: #caddde;
+		background-color: #49d1b1;
 }
 
 .active {
-		background-color: lime;
+		background-color: #9dd149;
+}
+
+#map{
+    max-width: 400px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    object-fit: contain;
 }
