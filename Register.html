@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
     <title>Registration</title>
 </head>
 <body>
-    <h3>Local Registration</h3>
+        <div class="center">
+            <form method ="post">
+    </h3>Registration</h3>
     <table>
         <tr>
             <td>Email:</td>
@@ -16,6 +19,14 @@
             <td>
             <input type ="text" name="user">
         </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+        </tr>
+        <tr>
+            <td>
+                <input type ="text" name="pass">
+            </td>
         </tr>
         <tr>
             <td>Phone number</td>
@@ -38,9 +49,21 @@
         </td>
         </tr>
         <tr>
-            <td>Already a user?<a href ="">Log in</td>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type ="radio" name="Gender">Male
+                <input type ="radio" name="Gender">Female
+         <!--   <input type ="radio" name="Gender">Other -->
+            </td>
         </tr>
+            <td> <button>Submit</button>
+        </tr>
+        <td>
+            Already a user?<a href="homepage.html">Login</a>
+        </td>
     </table>
-    
+</form>
+</div>
 </body>
 </html>
